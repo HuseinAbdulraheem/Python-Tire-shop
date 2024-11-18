@@ -1,0 +1,35 @@
+print("Hello, World")
+
+print("Welcome to Discount tire, how can I help you?")
+
+user_help = input()
+
+print("Ok, we can help you with that!")
+
+user_list = ["used tire", "new tire", "Tire air", "new wheel", "new log nuts"]
+
+print("Do you need", user_list)
+
+user_choice = input()
+
+if user_choice == "used tire":
+    print("Sorry, we don't sell used tires")
+elif user_choice == "new tire":
+    print("Yes, we do have new tires")
+elif user_choice == "Tire air":
+    print("Yes, we can give you free tire air!")
+elif user_choice == "new wheel":
+    print("Yes, we have new wheels and many differernt sizes")
+elif user_choice == "new log nuts":
+    print("We have a lot of them!")
+else:
+    print("Thanks for coming, please come again!")
+    
+print("Would you like to purchase more things?")
+user_answer = input()
+
+if user_answer == "Yes":
+    print("What would you like to purchase? I'm here to help you!")
+if user_answer == "No":
+    print ("Hope you enjoyed your time in our store, thanks for coming and please feel free to come back")
+
